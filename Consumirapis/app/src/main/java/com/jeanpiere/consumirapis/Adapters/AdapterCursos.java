@@ -52,13 +52,10 @@ public class AdapterCursos extends RecyclerView.Adapter<AdapterCursos.ViewHolder
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Obtener la posición de la vista clicada
                 int adapterPosition = holder.getAdapterPosition();
                 if (adapterPosition != RecyclerView.NO_POSITION) {
                     Cursos cursoSeleccionado = cursosList.get(adapterPosition);
-                    // Crear un Intent y pasar la posición correcta al TareasActivity
                     Intent intent = new Intent(context, TareasActivity.class);
-                    // Pasar la posición correcta
                     intent.putExtra("position", adapterPosition);
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     context.startActivity(intent);

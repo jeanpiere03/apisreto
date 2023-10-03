@@ -10,13 +10,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.jeanpiere.consumirapis.CursosActivity;
 import com.jeanpiere.consumirapis.Models.Cursos;
 import com.jeanpiere.consumirapis.Models.Estudiantes;
 import com.jeanpiere.consumirapis.R;
 import com.squareup.picasso.Picasso;
-
 import java.util.ArrayList;
 import java.util.List;
 

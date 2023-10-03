@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
            public void onResponse(Call<ResponseData> call, Response<ResponseData> response) {
                ResponseData mData = response.body();
                if (mData != null && response.isSuccessful()) {
-                   //estudiantes = response.body();
                    System.out.println("==============================================");
                    System.out.println("Lista de Estudiantes: " + mData.getEstudiantes());
                    System.out.println("==============================================");

@@ -59,14 +59,15 @@ public class TareasActivity extends AppCompatActivity {
                             if (cursos.size() > 0) {
                                 List<Tareas> tareasDelCurso = cursos.get(0).getTareas();
                                 if (tareasDelCurso != null) {
+                                    tareasAdapter.setTareas(tareas);
                                     tareas.addAll(tareasDelCurso);
                                     tareasAdapter.notifyDataSetChanged();
                                 } else {
-                                    Toast.makeText(TareasActivity.this, "No hay tareas para este curso.", Toast.LENGTH_SHORT).show();
+                                    System.out.println ("No hay tareas para este curso.");
                                 }
                             }
                         } else {
-                            Toast.makeText(TareasActivity.this, "No hay cursos asignados para este estudiante.", Toast.LENGTH_SHORT).show();
+                            System.out.println ("bruno es burro.");
                         }
                     }
                 }
