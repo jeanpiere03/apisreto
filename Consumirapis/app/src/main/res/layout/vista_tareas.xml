@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/card_view3"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/text_id_tarea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID: "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_titulo_tarea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Titulo: " />
+
+            <TextView
+                android:id="@+id/text_descripcion_tarea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="descripcion : " />
+
+            <TextView
+                android:id="@+id/text_nivel_tarea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nivel: " />
+            <TextView
+                android:id="@+id/text_fecha_etrenga_tarea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fecha etrenga : " />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
