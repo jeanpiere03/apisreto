@@ -9,9 +9,9 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface Api {
-    @GET("dg7lduzuo/raw/upload/v1695420863/odr0ghpgh5kkavaviw1b.json")
+    @GET("dg7lduzuo/raw/upload/v1696366827/dg5n51dvtzfh78dlmoxy.json")
     Call<ResponseData> getEstudents();
 
-    @GET("dg7lduzuo/raw/upload/v1695420863/odr0ghpgh5kkavaviw1b.json")
+    @GET("dg7lduzuo/raw/upload/v1696366827/dg5n51dvtzfh78dlmoxy.json")
     Call<List<Cursos>> getCursos();
 }
