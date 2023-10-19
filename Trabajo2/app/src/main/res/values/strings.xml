@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">Trabajo</string>
+
+
+
+<string name="pag1info">Explora y Regalate con</string>
+<string name="pag1kamp">Kampanoo</string>
+<string name="pag1info2">Se el Gamer de \ndisfruta de los juegos .</string>
+
+<string name="pag2info">Nos auspicia Get Byte \n dirigente TITO </string>
+<string name="pag2info2">Practica con nosotros \n y no te pagamos nada </string>
+<string name="pag3info">Descubre cómo ser un esclavo</string>
+<string name="pag3kamp">Kampanoo</string>
+<string name="pag3te">te</string>
+<string name="pag3info_info">ayuda a ser leders del Mañana</string>
+<string name="pag3info2">Haz tus practicas sin ingresos y\n crece como persona.</string>
+<string name="ubicacion_icon">ubicacion_icon</string>
+<string name="Av1">Av. Brazil 5515, SJ</string>
+<string name="Pd1">Perú direccion 1</string>
+<string name="confi_ubication">Confirmar Ubicación</string>
+<string name="ubicacion_ejemplo">Ubicacion ejemplo</string>
+<string name="items" />
+<string name="buscar">buscar...</string>
+<string name="puntuacion4_3"><font color="#FFD400">4.3</font> </string>
+<string name="bodega_rosita">Bodega Rosita</string>
+<string name="naranja_para_jugo">Naranja para jugo</string>
+<string name="ubicacion_ejem">Ubicacion Ejem.</string>
+<string name="price"><strike>S/6.40</strike></string>
 </resources>

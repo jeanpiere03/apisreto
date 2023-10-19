@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado_purple"
+    tools:context=".Onboarding.IntroActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/butnsiguiente"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32">
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/onboardingViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutOnboardingIndicators"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/butnsiguiente"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/butnomitir"
+        android:layout_width="96dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/white"
+        android:text="Omitir"
+        android:textColor="#800080"
+        app:iconTint="#787878"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/butnanterior"
+        android:layout_width="255dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/white"
+        app:cornerRadius="20dp"
+        android:text="Anterior"
+        android:textColor="#800080"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/butnsiguiente"
+        android:layout_width="255dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="2dp"
+        android:backgroundTint="#800080"
+        android:elevation="2dp"
+        android:text="Siguiente"
+        app:cornerRadius="20dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/butnanterior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
